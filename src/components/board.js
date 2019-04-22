@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import BlankPiece from "./blankPiece.js";
 import "./board.css";
 
 class Board extends Component {
@@ -19,7 +19,25 @@ class Board extends Component {
   }
 
   render() {
-    return <div className="board" />;
+    return (
+      <div className="board">
+        <div className="row">
+          <BlankPiece />
+          <BlankPiece />
+          <BlankPiece />
+        </div>
+        <div className="row">
+          <BlankPiece />
+          <BlankPiece />
+          <BlankPiece />
+        </div>
+        <div className="row">
+          <BlankPiece />
+          <BlankPiece />
+          <BlankPiece />
+        </div>
+      </div>
+    );
   }
 }
 

@@ -1,0 +1,13 @@
+.app {
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 8;
+  border-radius: 15px;
+}
+
+.row {
+  margin: 5px;
+  display: flex;
+  flex-grow: 1;
+}
