@@ -6,17 +6,20 @@ class Board extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      zeroZero: null,
-      zeroOne: null,
-      zeroTwo: null,
-      oneZero: null,
-      oneOne: null,
-      oneTwo: null,
-      twoZero: null,
-      twoOne: null,
-      twoTwo: null
+      nextTurn: 1,
+      "0_0": null,
+      "0_1": null,
+      "0_2": null,
+      "1_0": null,
+      "1_1": null,
+      "1_2": null,
+      "2_0": null,
+      "2_1": null,
+      "2_2": null
     };
   }
+
+  takeTurn = event => {};
 
   render() {
     return (

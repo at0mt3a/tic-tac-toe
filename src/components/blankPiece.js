@@ -4,7 +4,7 @@ import "./blankPiece.css";
 
 class BlankPiece extends Component {
   render() {
-    return <div className="piece">null</div>;
+    return <div className="piece" />;
   }
 }
 
