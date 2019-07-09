@@ -6,16 +6,11 @@ class Board extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      nextTurn: 1,
-      "0_0": null,
-      "0_1": null,
-      "0_2": null,
-      "1_0": null,
-      "1_1": null,
-      "1_2": null,
-      "2_0": null,
-      "2_1": null,
-      "2_2": null
+      game: {
+        active: false,
+        nextTurn: 0,
+        board: [["", "", ""], ["", "", ""], ["", "", ""]]
+      }
     };
   }
 

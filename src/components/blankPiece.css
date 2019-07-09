@@ -1,8 +1,9 @@
 .piece {
-  margin-left: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
   background: white;
-  height: 100px;
-  width: 100px;
-  box-shadow: 2px 2px 2px;
+  height: 90px;
+  width: 90px;
+  box-shadow: 3px 3px 3px;
   border-radius: 15px;
 }

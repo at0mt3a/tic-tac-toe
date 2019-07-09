@@ -7,39 +7,42 @@
 
 .app {
   background: url("/images/ocean_2.jpg");
-  margin: 45px;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
   border-radius: 15px;
+  margin-top: 45px;
+  margin-left: 45px;
+  margin-right: 45px;
+  box-shadow: black 3px 3px 3px;
+  max-width: 50em;
 }
 
 .header {
   background: url("/images/metal-pattern-texture-1.jpg");
   display: flex;
   flex-grow: 1;
-  margin: 15px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px;
+  margin: 20px;
+  box-shadow: 3px 3px 3px;
 }
 
 .containerBoard {
   background: url("/images/Background_Beach_Sand_2.jpg");
   display: flex;
-  flex-grow: 3;
-  margin-left: 15px;
-  margin-right: 15px;
-  border-radius: 30px;
+  flex-grow: 2;
+  margin: 60px;
+  border-radius: 15px;
   align-items: center;
   justify-content: center;
-  box-shadow: 2px 2px 2px;
+  box-shadow: 3px 3px 3px;
 }
 
-.footer {
-  background: url("/images/metal-pattern-texture-1.jpg");
+.terminal {
+  background: black;
   display: flex;
   flex-grow: 1;
-  margin: 15px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px;
+  margin: 15px 45px 45px 45px;
+  box-shadow: 3px 3px 3px;
+  border-radius: 15px;
+  max-width: 50em;
 }
